@@ -1,0 +1,4 @@
+Considering how simple this program is, it was hard to write this in racket without making it
+look like Dr. Clement's program. In this vain, I rewrote the program to be recursive instead
+of iterative, and made use of the rs-append function (instead of rs-append*), which takes the
+results of the recursive call as its second argument.
